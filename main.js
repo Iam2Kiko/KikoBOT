@@ -8,7 +8,7 @@ client.once('ready', () => {
     console.log('Bot Online');
 })
 
-client.login('OTAwMTY0NTMwMTc1MzczMzUy.YW9VjA.BCMwWB7v8v2iGrMuEE7DPkhMj30');
+client.login('BOTKEY');
 
 client.on('message', message => {
     if(!message.content.startsWith(prefix) || message.author.bot) return;
